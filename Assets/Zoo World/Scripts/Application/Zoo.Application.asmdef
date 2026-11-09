@@ -1,0 +1,6 @@
+{
+  "name": "Zoo.Application",
+  "rootNamespace": "Zoo.Application",
+  "references": ["Zoo.Domain", "UniState", "UniTask"],
+  "noEngineReferences": true
+}

@@ -1,0 +1,27 @@
+{
+  "name": "com.bazyleu.unistate",
+  "displayName": "UniState",
+  "author": {
+    "name": "Dzmitry Bazyleu",
+    "url": "https://www.linkedin.com/in/dzmitry-bazyleu/"
+  },
+  "version": "1.12.1",
+  "unity": "2022.3",
+  "description": "UniState is a modern, high-performance, scalable state machine package for Unity.",
+  "keywords": [
+    "architecture",
+    "state",
+    "performance",
+    "StateMachine",
+    "code",
+    "UniState",
+    "UniTask",
+    "project",
+    "organization",
+    "async/await",
+    "async"
+  ],
+  "license": "MIT",
+  "category": "Scripting",
+  "_fingerprint": "93c1f4ff14b9fc796c9324e6a33d19fb450dca1e"
+}

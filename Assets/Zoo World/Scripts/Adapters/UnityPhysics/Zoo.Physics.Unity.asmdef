@@ -1,0 +1,8 @@
+{
+  "name": "Zoo.Physics.Unity",
+  "references": [
+    "Zoo.Domain",
+    "Zoo.Application",
+    "Zoo.Unity"
+  ]
+}

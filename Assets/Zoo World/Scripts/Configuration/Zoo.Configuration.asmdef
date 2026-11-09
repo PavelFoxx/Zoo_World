@@ -1,0 +1,6 @@
+{
+  "name": "Zoo.Configuration",
+  "references": ["Zoo.Domain", "Zoo.Application"],
+  "includePlatforms": ["Editor"],
+  "noEngineReferences": true
+}

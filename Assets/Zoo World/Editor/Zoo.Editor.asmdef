@@ -1,0 +1,20 @@
+{
+  "name": "Zoo.Editor",
+  "references": [
+    "Zoo.Configuration",
+    "Zoo.Domain",
+    "Zoo.Application",
+    "Zoo.Unity",
+    "Zoo.Physics.Unity",
+    "Zoo.Navigation.DotRecast",
+    "Zoo.Navigation.Baking",
+    "Zoo.Composition",
+    "Zenject",
+    "Unity.ugui",
+    "Unity.InputSystem",
+    "NightPool"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

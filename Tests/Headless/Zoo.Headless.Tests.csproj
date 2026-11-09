@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsTestProject>true</IsTestProject>
+    <IsPackable>false</IsPackable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <LangVersion>9.0</LangVersion>
+    <NoWarn>CS8981;CS8632</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+    <PackageReference Include="DotRecast.Recast" Version="2026.3.1" />
+    <ProjectReference Include="../../Tools/Headless/Zoo.Headless.Runtime.csproj" />
+    <Compile Include="../../Assets/Zoo World/Editor/Navigation/Baking/**/*.cs" />
+    <Compile Include="../../Assets/Zoo World/Tests/EditMode/Core/**/*.cs" />
+    <Compile Include="Configuration/**/*.cs" />
+    <None Include="../../Exports/zoo-world.json" Link="zoo-world.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,8 @@
+{
+  "name": "Zoo.Navigation.Baking",
+  "references": [],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "noEngineReferences": true
+}

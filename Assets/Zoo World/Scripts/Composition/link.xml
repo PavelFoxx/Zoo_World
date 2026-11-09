@@ -1,0 +1,11 @@
+<linker>
+  <!-- Zenject constructs these composition types through reflection in IL2CPP builds. -->
+  <assembly fullname="Zoo.Composition" preserve="all" />
+  <assembly fullname="Zoo.Unity">
+    <type fullname="Zoo.Unity.NightPoolViewPool" preserve="all" />
+    <type fullname="Zoo.Unity.UnitySceneLoadingService" preserve="all" />
+    <type fullname="Zoo.Unity.EntityViewCoordinator" preserve="all" />
+    <type fullname="Zoo.Unity.AnimalViewPresenter" preserve="all" />
+    <type fullname="Zoo.Unity.LoadingScreenView" preserve="all" />
+  </assembly>
+</linker>

@@ -1,0 +1,9 @@
+{
+  "name": "Zoo.Navigation.DotRecast",
+  "references": [
+    "Zoo.Application",
+    "Zoo.Domain",
+    "UniTask"
+  ],
+  "noEngineReferences": true
+}

@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net8.0": {
+      "BepuPhysics": {
+        "type": "Direct",
+        "requested": "[2.4.0, )",
+        "resolved": "2.4.0",
+        "contentHash": "Ck/BJgSQrBqYrj0T9jGljDdHNILBP5kTPTylc7N/hCzR1XJJc7p6ORzwtjTfjgoYkkdajvLHxEQv6BRC8kaysQ==",
+        "dependencies": {
+          "BepuUtilities": "2.4.0"
+        }
+      },
+      "DotRecast.Detour": {
+        "type": "Direct",
+        "requested": "[2026.3.1, )",
+        "resolved": "2026.3.1",
+        "contentHash": "VGgJunTQepk9mpqAIIIWlxkr7Xf8kqUHu10ks+faXpFumc2nevoNmJ3NIlvFAPh/cPEPWOIMFmH/OFjDJ/LEZQ==",
+        "dependencies": {
+          "DotRecast.Core": "2026.3.1"
+        }
+      },
+      "R3": {
+        "type": "Direct",
+        "requested": "[1.3.1, )",
+        "resolved": "1.3.1",
+        "contentHash": "HzZ2wGlkxOgpMhtTtJkBUP5xiKqeH5P9oD0Ll1JfO8mMyA75u0zwDssN/TGb1/5EIOY0Vuv07unyVtAaPmV6Tg=="
+      },
+      "UniTask": {
+        "type": "Direct",
+        "requested": "[2.5.11, )",
+        "resolved": "2.5.11",
+        "contentHash": "B6T7/MNuLl/yDdVQJ6lpEsoQEeZf3BzjHTQPzt16x0KQgiOjRE3kHUbSRnLdgfoQzPGmM9NXdEky6iRSpNB1/g==",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        }
+      },
+      "BepuUtilities": {
+        "type": "Transitive",
+        "resolved": "2.4.0",
+        "contentHash": "KNMxkzKLHAvV7jRtErxs3rPv71fHToqo/WN96HlT6iomWuwL97tohEbt0B1WA8A6sO5t6PP+qF08d4T9A8k2uA=="
+      },
+      "DotRecast.Core": {
+        "type": "Transitive",
+        "resolved": "2026.3.1",
+        "contentHash": "26TjlLSHnTY3qBu0AzuItDqV8Q57TNdSsi1GCnrmCZlwQmUaLScz/FlZUwSJcv9P0PPKiAClfgwCVk8p+Z2ccw=="
+      },
+      "System.Threading.Tasks.Extensions": {
+        "type": "Transitive",
+        "resolved": "4.5.4",
+        "contentHash": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg=="
+      }
+    }
+  }
+}

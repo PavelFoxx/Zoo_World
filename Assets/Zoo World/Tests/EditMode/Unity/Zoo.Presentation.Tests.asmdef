@@ -1,0 +1,22 @@
+{
+  "name": "Zoo.Presentation.Tests",
+  "references": [
+    "Zoo.Editor",
+    "Zoo.Configuration",
+    "Zoo.Unity",
+    "NightPool",
+    "Zoo.Physics.Unity",
+    "Zoo.Composition",
+    "Zenject",
+    "Unity.ugui",
+    "Zoo.Domain",
+    "Zoo.Application"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

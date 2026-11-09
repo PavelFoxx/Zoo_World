@@ -1,0 +1,20 @@
+{
+    "name": "Zoo.Unity",
+    "rootNamespace": "",
+    "references": [
+        "Zoo.Domain",
+        "Zoo.Application",
+        "UniTask",
+        "NightPool",
+        "Zenject"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

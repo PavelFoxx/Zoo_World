@@ -1,0 +1,26 @@
+{
+  "name": "Zoo.Domain.Tests",
+  "references": [
+    "Zoo.Domain",
+    "Zoo.Application",
+    "UniTask",
+    "UniState",
+    "Zoo.Navigation.DotRecast",
+    "Zoo.Navigation.Baking"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "R3.dll",
+    "nunit.framework.dll",
+    "DotRecast.Core.dll",
+    "DotRecast.Detour.dll",
+    "DotRecast.Recast.dll"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

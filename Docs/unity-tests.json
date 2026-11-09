@@ -1,0 +1,613 @@
+{
+  "date": "2026-11-09",
+  "unity": "6000.3.9f1",
+  "editMode": {
+    "job_id": "6bae1e554457468f99bd6e8c10036765",
+    "status": "succeeded",
+    "mode": "EditMode",
+    "started_unix_ms": 1794255999803,
+    "finished_unix_ms": 1794256003942,
+    "last_update_unix_ms": 1794256003942,
+    "progress": {
+      "completed": 46,
+      "total": 46,
+      "current_test_full_name": null,
+      "current_test_started_unix_ms": null,
+      "last_finished_test_full_name": "Zoo.Tests.SimulationExportTests.StaleNavigationIsRejectedBeforeExport",
+      "last_finished_unix_ms": 1794256003684,
+      "stuck_suspected": false,
+      "editor_is_focused": false,
+      "run_in_background": true,
+      "focus_nudge_attempts": null,
+      "focus_nudge_limit": null,
+      "focus_nudge_status": null,
+      "blocked_reason": null,
+      "failures_so_far": [],
+      "failures_capped": false
+    },
+    "error": null,
+    "result": {
+      "mode": "EditMode",
+      "summary": {
+        "total": 46,
+        "passed": 46,
+        "failed": 0,
+        "skipped": 0,
+        "durationSeconds": 2.1904304,
+        "resultState": "Passed"
+      },
+      "results": [
+        {
+          "name": "FlyingAnimalKeepsItsFlightWhenGroundNavigationChanges",
+          "fullName": "Zoo.Tests.AnimalBrainTests.FlyingAnimalKeepsItsFlightWhenGroundNavigationChanges",
+          "state": "Passed",
+          "durationSeconds": 0.2330762,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "GroundNavigationChangeCancelsPendingRouteBeforeStartingReplacement",
+          "fullName": "Zoo.Tests.AnimalBrainTests.GroundNavigationChangeCancelsPendingRouteBeforeStartingReplacement",
+          "state": "Passed",
+          "durationSeconds": 0.0306011,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "RemovingAnimalRejectsLateResultFromCanceledNavigation",
+          "fullName": "Zoo.Tests.AnimalBrainTests.RemovingAnimalRejectsLateResultFromCanceledNavigation",
+          "state": "Passed",
+          "durationSeconds": 0.0106023,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "CanceledNativeLoadDoesNotPrepareGameAndStillUnloads",
+          "fullName": "Zoo.Tests.ApplicationFlowTests.CanceledNativeLoadDoesNotPrepareGameAndStillUnloads",
+          "state": "Passed",
+          "durationSeconds": 0.0037035,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "ErrorObserverCanRetryImmediatelyAfterCleanup",
+          "fullName": "Zoo.Tests.ApplicationFlowTests.ErrorObserverCanRetryImmediatelyAfterCleanup",
+          "state": "Passed",
+          "durationSeconds": 0.0035034,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "LoadErrorCanRetryAndRestartDoesNotStartBeforePreparation",
+          "fullName": "Zoo.Tests.ApplicationFlowTests.LoadErrorCanRetryAndRestartDoesNotStartBeforePreparation",
+          "state": "Passed",
+          "durationSeconds": 0.0022001,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "LoadingScreenObservesProgressAndMapsApplicationStages",
+          "fullName": "Zoo.Tests.ApplicationFlowTests.LoadingScreenObservesProgressAndMapsApplicationStages",
+          "state": "Passed",
+          "durationSeconds": 0.0025524,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "BounceRequestsOnePairOfOpposingImpulses(False,False)",
+          "fullName": "Zoo.Tests.InteractionTests.BounceRequestsOnePairOfOpposingImpulses(False,False)",
+          "state": "Passed",
+          "durationSeconds": 0.0028968,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "BounceRequestsOnePairOfOpposingImpulses(True,False)",
+          "fullName": "Zoo.Tests.InteractionTests.BounceRequestsOnePairOfOpposingImpulses(True,False)",
+          "state": "Passed",
+          "durationSeconds": 0.0001143,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "BounceRequestsOnePairOfOpposingImpulses(False,True)",
+          "fullName": "Zoo.Tests.InteractionTests.BounceRequestsOnePairOfOpposingImpulses(False,True)",
+          "state": "Passed",
+          "durationSeconds": 0.0000666,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "CollisionCarriesParticipantsAndEatingUpdatesCountersOnceAfterPhysicsStep",
+          "fullName": "Zoo.Tests.InteractionTests.CollisionCarriesParticipantsAndEatingUpdatesCountersOnceAfterPhysicsStep",
+          "state": "Passed",
+          "durationSeconds": 0.0061421,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "DuplicateInteractionTypesAreRejected",
+          "fullName": "Zoo.Tests.InteractionTests.DuplicateInteractionTypesAreRejected",
+          "state": "Passed",
+          "durationSeconds": 0.000807,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "EatingMessageReachesViewModelThroughInteractionEvent(\"Delicious!\")",
+          "fullName": "Zoo.Tests.InteractionTests.EatingMessageReachesViewModelThroughInteractionEvent(\"Delicious!\")",
+          "state": "Passed",
+          "durationSeconds": 0.0013897,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "EatingMessageReachesViewModelThroughInteractionEvent(\"Добыча поймана\")",
+          "fullName": "Zoo.Tests.InteractionTests.EatingMessageReachesViewModelThroughInteractionEvent(\"Добыча поймана\")",
+          "state": "Passed",
+          "durationSeconds": 0.0003667,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "EatingMessageReachesViewModelThroughInteractionEvent(null)",
+          "fullName": "Zoo.Tests.InteractionTests.EatingMessageReachesViewModelThroughInteractionEvent(null)",
+          "state": "Passed",
+          "durationSeconds": 0.0004454,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "EnumOrderSelectsOnlyFirstSuitableInteraction(True,True,Eating)",
+          "fullName": "Zoo.Tests.InteractionTests.EnumOrderSelectsOnlyFirstSuitableInteraction(True,True,Eating)",
+          "state": "Passed",
+          "durationSeconds": 0.0014853,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "EnumOrderSelectsOnlyFirstSuitableInteraction(False,True,Bounce)",
+          "fullName": "Zoo.Tests.InteractionTests.EnumOrderSelectsOnlyFirstSuitableInteraction(False,True,Bounce)",
+          "state": "Passed",
+          "durationSeconds": 0.0001265,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "EnumOrderSelectsOnlyFirstSuitableInteraction(False,False,null)",
+          "fullName": "Zoo.Tests.InteractionTests.EnumOrderSelectsOnlyFirstSuitableInteraction(False,False,null)",
+          "state": "Passed",
+          "durationSeconds": 0.0001737,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "InvalidOrRemovedParticipantsAreIgnoredAndDisposalUnsubscribes",
+          "fullName": "Zoo.Tests.InteractionTests.InvalidOrRemovedParticipantsAreIgnoredAndDisposalUnsubscribes",
+          "state": "Passed",
+          "durationSeconds": 0.0003331,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(False,\"snake\",\"snake\")",
+          "fullName": "Zoo.Tests.InteractionTests.MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(False,\"snake\",\"snake\")",
+          "state": "Passed",
+          "durationSeconds": 0.0093123,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(True,\"snake\",\"snake\")",
+          "fullName": "Zoo.Tests.InteractionTests.MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(True,\"snake\",\"snake\")",
+          "state": "Passed",
+          "durationSeconds": 0.0064417,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(False,\"renamed-predator\",\"renamed-predator\")",
+          "fullName": "Zoo.Tests.InteractionTests.MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(False,\"renamed-predator\",\"renamed-predator\")",
+          "state": "Passed",
+          "durationSeconds": 0.0061439,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(True,\"renamed-predator\",\"renamed-predator\")",
+          "fullName": "Zoo.Tests.InteractionTests.MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(True,\"renamed-predator\",\"renamed-predator\")",
+          "state": "Passed",
+          "durationSeconds": 0.0075829,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(False,\"wolf\",\"fox\")",
+          "fullName": "Zoo.Tests.InteractionTests.MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(False,\"wolf\",\"fox\")",
+          "state": "Passed",
+          "durationSeconds": 0.0062264,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(True,\"wolf\",\"fox\")",
+          "fullName": "Zoo.Tests.InteractionTests.MutualEatingUsesConfiguredRulesAndResolvesOnlyOnce(True,\"wolf\",\"fox\")",
+          "state": "Passed",
+          "durationSeconds": 0.0059532,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "PhysicalResponseQueriesDoNotAffectRandomDuelOutcome",
+          "fullName": "Zoo.Tests.InteractionTests.PhysicalResponseQueriesDoNotAffectRandomDuelOutcome",
+          "state": "Passed",
+          "durationSeconds": 0.0005079,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "RoleRuleAppliesRegardlessOfTargetTypeId(\"frog\")",
+          "fullName": "Zoo.Tests.InteractionTests.RoleRuleAppliesRegardlessOfTargetTypeId(\"frog\")",
+          "state": "Passed",
+          "durationSeconds": 0.0006007,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "RoleRuleAppliesRegardlessOfTargetTypeId(\"renamed-prey\")",
+          "fullName": "Zoo.Tests.InteractionTests.RoleRuleAppliesRegardlessOfTargetTypeId(\"renamed-prey\")",
+          "state": "Passed",
+          "durationSeconds": 0.0001047,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "SessionReportsInteractionFailure",
+          "fullName": "Zoo.Tests.InteractionTests.SessionReportsInteractionFailure",
+          "state": "Passed",
+          "durationSeconds": 0.0011235,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "ClockCancellationDoesNotLeavePendingWaits",
+          "fullName": "Zoo.Tests.SimulationTests.ClockCancellationDoesNotLeavePendingWaits",
+          "state": "Passed",
+          "durationSeconds": 0.0003319,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "DisposingSessionCancelsAnimalsAndReleasesAdaptersOnce",
+          "fullName": "Zoo.Tests.SimulationTests.DisposingSessionCancelsAnimalsAndReleasesAdaptersOnce",
+          "state": "Passed",
+          "durationSeconds": 0.0013139,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "DotRecastFindsPathAroundBoxWithoutUnity",
+          "fullName": "Zoo.Tests.SimulationTests.DotRecastFindsPathAroundBoxWithoutUnity",
+          "state": "Passed",
+          "durationSeconds": 0.124456,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "FrogDefinitionHasFixedUnobstructedJumpDistance",
+          "fullName": "Zoo.Tests.SimulationTests.FrogDefinitionHasFixedUnobstructedJumpDistance",
+          "state": "Passed",
+          "durationSeconds": 0.0003252,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "LeavingWorldBoundsInterruptsWanderAtTheNextSecond",
+          "fullName": "Zoo.Tests.SimulationTests.LeavingWorldBoundsInterruptsWanderAtTheNextSecond",
+          "state": "Passed",
+          "durationSeconds": 0.0033436,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "NewSpeciesUsesExistingBehaviorWithoutClass",
+          "fullName": "Zoo.Tests.SimulationTests.NewSpeciesUsesExistingBehaviorWithoutClass",
+          "state": "Passed",
+          "durationSeconds": 0.0004756,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "PoseNotificationDoesNotNeedViewModelRefresh",
+          "fullName": "Zoo.Tests.SimulationTests.PoseNotificationDoesNotNeedViewModelRefresh",
+          "state": "Passed",
+          "durationSeconds": 0.0004704,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "RemovingNpcCancelsItsNestedStateWaitsAndMovement",
+          "fullName": "Zoo.Tests.SimulationTests.RemovingNpcCancelsItsNestedStateWaitsAndMovement",
+          "state": "Passed",
+          "durationSeconds": 0.0004079,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "SharedMovementHasNoSharedRuntimeProgress",
+          "fullName": "Zoo.Tests.SimulationTests.SharedMovementHasNoSharedRuntimeProgress",
+          "state": "Passed",
+          "durationSeconds": 0.0012453,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "SpawningWaitsForFreeSpaceAndContinuesAfterItBecomesAvailable",
+          "fullName": "Zoo.Tests.SimulationTests.SpawningWaitsForFreeSpaceAndContinuesAfterItBecomesAvailable",
+          "state": "Passed",
+          "durationSeconds": 0.0007715,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "SpawnSchedulerUsesOneToTwoSecondIntervals",
+          "fullName": "Zoo.Tests.SimulationTests.SpawnSchedulerUsesOneToTwoSecondIntervals",
+          "state": "Passed",
+          "durationSeconds": 0.0028728,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "BootstrapAndLoadingScreenHaveSeparateScopes",
+          "fullName": "Zoo.Tests.SceneConfigurationTests.BootstrapAndLoadingScreenHaveSeparateScopes",
+          "state": "Passed",
+          "durationSeconds": 0.0073188,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "BootstrapIsFirstAndGameContainsAuthoredBoxesAndUgui",
+          "fullName": "Zoo.Tests.SceneConfigurationTests.BootstrapIsFirstAndGameContainsAuthoredBoxesAndUgui",
+          "state": "Passed",
+          "durationSeconds": 0.0070231,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "CatalogUsesIndependentConfigurationAssets",
+          "fullName": "Zoo.Tests.SceneConfigurationTests.CatalogUsesIndependentConfigurationAssets",
+          "state": "Passed",
+          "durationSeconds": 0.0012452,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "ExportPreservesFlightHeightAndBodyGravity",
+          "fullName": "Zoo.Tests.SimulationExportTests.ExportPreservesFlightHeightAndBodyGravity",
+          "state": "Passed",
+          "durationSeconds": 0.0142732,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "JsonSnapshotPreservesAuthoredDefinitionsNavigationAndWorld",
+          "fullName": "Zoo.Tests.SimulationExportTests.JsonSnapshotPreservesAuthoredDefinitionsNavigationAndWorld",
+          "state": "Passed",
+          "durationSeconds": 0.0098176,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "StaleNavigationIsRejectedBeforeExport",
+          "fullName": "Zoo.Tests.SimulationExportTests.StaleNavigationIsRejectedBeforeExport",
+          "state": "Passed",
+          "durationSeconds": 0.0069389,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        }
+      ]
+    }
+  },
+  "playMode": {
+    "job_id": "98f0d2e2b61642429e1190fa74381576",
+    "status": "succeeded",
+    "mode": "PlayMode",
+    "started_unix_ms": 1794256188637,
+    "finished_unix_ms": 1794256200932,
+    "last_update_unix_ms": 1794256200932,
+    "progress": {
+      "completed": 13,
+      "total": 13,
+      "current_test_full_name": null,
+      "current_test_started_unix_ms": null,
+      "last_finished_test_full_name": "Zoo.Tests.PresentationTests.UnobstructedJumpKeepsDistanceAndPreyContactSeparates",
+      "last_finished_unix_ms": 1794256200877,
+      "stuck_suspected": false,
+      "editor_is_focused": false,
+      "run_in_background": true,
+      "focus_nudge_attempts": null,
+      "focus_nudge_limit": null,
+      "focus_nudge_status": null,
+      "blocked_reason": null,
+      "failures_so_far": [],
+      "failures_capped": false
+    },
+    "error": null,
+    "result": {
+      "mode": "PlayMode",
+      "summary": {
+        "total": 13,
+        "passed": 13,
+        "failed": 0,
+        "skipped": 0,
+        "durationSeconds": 7.5517508,
+        "resultState": "Passed"
+      },
+      "results": [
+        {
+          "name": "BootstrapLoadsPreparedGameAndCanRestart",
+          "fullName": "Zoo.Tests.BootstrapTests.BootstrapLoadsPreparedGameAndCanRestart",
+          "state": "Passed",
+          "durationSeconds": 5.7263111,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "CanceledPreparationReleasesResourcesBeforeRetry",
+          "fullName": "Zoo.Tests.BootstrapTests.CanceledPreparationReleasesResourcesBeforeRetry",
+          "state": "Passed",
+          "durationSeconds": 0.0632785,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "EatingContactDoesNotDeflectPredator(2.0f)",
+          "fullName": "Zoo.Tests.PresentationTests.EatingContactDoesNotDeflectPredator(2.0f)",
+          "state": "Passed",
+          "durationSeconds": 0.0086797,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "EatingContactDoesNotDeflectPredator(100.0f)",
+          "fullName": "Zoo.Tests.PresentationTests.EatingContactDoesNotDeflectPredator(100.0f)",
+          "state": "Passed",
+          "durationSeconds": 0.0009897,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "FlightHoldsAltitudeAndReusedBodyRestoresGravity",
+          "fullName": "Zoo.Tests.PresentationTests.FlightHoldsAltitudeAndReusedBodyRestoresGravity",
+          "state": "Passed",
+          "durationSeconds": 0.0070206,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "PooledMealAndTweenCannotLeakIntoNextActivation",
+          "fullName": "Zoo.Tests.PresentationTests.PooledMealAndTweenCannotLeakIntoNextActivation",
+          "state": "Passed",
+          "durationSeconds": 1.6053952,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "PoolExpansionNeverRecyclesLiveLease",
+          "fullName": "Zoo.Tests.PresentationTests.PoolExpansionNeverRecyclesLiveLease",
+          "state": "Passed",
+          "durationSeconds": 0.0228755,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "PoolRejectsDoubleReturn",
+          "fullName": "Zoo.Tests.PresentationTests.PoolRejectsDoubleReturn",
+          "state": "Passed",
+          "durationSeconds": 0.0016376,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "ReusedViewAnimatesJumpAndFollowsFlightPose",
+          "fullName": "Zoo.Tests.PresentationTests.ReusedViewAnimatesJumpAndFollowsFlightPose",
+          "state": "Passed",
+          "durationSeconds": 0.0080606,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "ReusedViewDoesNotObserveOldEntity",
+          "fullName": "Zoo.Tests.PresentationTests.ReusedViewDoesNotObserveOldEntity",
+          "state": "Passed",
+          "durationSeconds": 0.0058577,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "UnityPhysicsCrossesAllEdgesOfThePlayArea",
+          "fullName": "Zoo.Tests.PresentationTests.UnityPhysicsCrossesAllEdgesOfThePlayArea",
+          "state": "Passed",
+          "durationSeconds": 0.0113048,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "UnityPhysicsStopsAtBox",
+          "fullName": "Zoo.Tests.PresentationTests.UnityPhysicsStopsAtBox",
+          "state": "Passed",
+          "durationSeconds": 0.0099162,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        },
+        {
+          "name": "UnobstructedJumpKeepsDistanceAndPreyContactSeparates",
+          "fullName": "Zoo.Tests.PresentationTests.UnobstructedJumpKeepsDistanceAndPreyContactSeparates",
+          "state": "Passed",
+          "durationSeconds": 0.0100901,
+          "message": null,
+          "stackTrace": null,
+          "output": ""
+        }
+      ]
+    }
+  }
+}

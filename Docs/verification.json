@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-09",
+  "status": "verified-in-unity-editor",
+  "appliesToCurrentSources": true,
+  "scope": "Zenject SceneContext/GameObjectContext integration, Unity compilation, EditMode and PlayMode tests, gameplay screenshot",
+  "unity": "6000.3.9f1",
+  "compilation": {
+    "result": "passed",
+    "errors": 0,
+    "warnings": 0,
+    "mode": "Unity Editor script compilation"
+  },
+  "editMode": {
+    "job": "6bae1e554457468f99bd6e8c10036765",
+    "total": 46,
+    "passed": 46,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 2.1904304,
+    "resultState": "Passed"
+  },
+  "playMode": {
+    "job": "98f0d2e2b61642429e1190fa74381576",
+    "total": 13,
+    "passed": 13,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 7.5517508,
+    "resultState": "Passed"
+  },
+  "testDetails": "Docs/unity-tests.json",
+  "testRunnerSetup": {
+    "initialAttempt": "7b3c972afa0d4bd2ae58928fb2110def",
+    "initialResult": "initialization-timeout; no tests executed",
+    "reason": "EditorSceneManager.playModeStartScene forced Bootstrap instead of the test bootstrap scene.",
+    "workaround": "Temporarily cleared playModeStartScene for PlayMode tests; restored Bootstrap afterwards."
+  },
+  "gameplay": {
+    "source": "Unity Editor Game View",
+    "entryScene": "Bootstrap",
+    "screenshot": "Docs/gameplay.png",
+    "width": 1920,
+    "height": 888,
+    "observed": [
+      "Additive Game loading through Zenject",
+      "Spawning and movement",
+      "Eating and reactive counters"
+    ],
+    "consoleErrorsObserved": 0,
+    "consoleWarningsObserved": 0
+  },
+  "webgl": {
+    "status": "not-run-after-zenject-migration",
+    "note": "Editor compilation and PlayMode tests do not verify IL2CPP stripping or a browser player."
+  },
+  "headless": {
+    "status": "not-run-in-this-verification"
+  },
+  "previousVerification": {
+    "date": "2026-11-09",
+    "status": "historical",
+    "appliesToCurrentSources": false,
+    "note": "Recorded before the ApplicationFlow and AnimalBrain refactors, interaction message payloads and role-only configuration schema v2.",
+    "scope": "SRP refactoring, code readability and README",
+    "unity": "6000.3.9f1",
+    "headless": {
+      "passed": 31,
+      "failed": 0
+    },
+    "editMode": {
+      "passed": 23,
+      "failed": 0,
+      "job": "b9f5acd7729b4d6f9c76a228445d50f9"
+    },
+    "playMode": {
+      "passed": 11,
+      "failed": 0,
+      "job": "af060f5ec0a54cb7b20bfdba40f67af7"
+    },
+    "headlessRun": {
+      "configuration": "Exports/zoo-world.json",
+      "physics": "BepuPhysics 2.4.0",
+      "seconds": 60,
+      "seed": 1701,
+      "spawned": 39,
+      "alive": 15,
+      "deadPrey": 14,
+      "deadPredators": 10
+    },
+    "webgl": {
+      "path": "Builds/SRP-WebGL",
+      "job": "build-95521e15ca",
+      "backend": "IL2CPP",
+      "managedStripping": "High",
+      "errors": 0,
+      "warnings": 0,
+      "sizeMB": 30.2,
+      "browser": "Codex in-app browser",
+      "viewports": [
+        "1280x800",
+        "540x900"
+      ],
+      "consoleErrorsObserved": 0,
+      "consoleWarningsObserved": 0,
+      "screenshot": "Docs/gameplay.jpg",
+      "verified": [
+        "Loading",
+        "Spawning and movement",
+        "Eating and counters",
+        "Camera framing on resize"
+      ]
+    },
+    "limitations": "BEPU and Unity PhysX can produce different trajectories."
+  }
+}

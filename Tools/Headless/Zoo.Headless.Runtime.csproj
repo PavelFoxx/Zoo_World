@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <LangVersion>9.0</LangVersion>
+    <NoWarn>CS8981;CS8632</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="UniTask" Version="2.5.11" />
+    <PackageReference Include="R3" Version="1.3.1" />
+    <PackageReference Include="DotRecast.Detour" Version="2026.3.1" />
+    <PackageReference Include="BepuPhysics" Version="2.4.0" />
+    <Compile Include="../../Assets/Zoo World/Scripts/Domain/**/*.cs" />
+    <Compile Include="../../Assets/Zoo World/Scripts/Application/**/*.cs" />
+    <Compile Include="../../Assets/Zoo World/Scripts/Configuration/**/*.cs" />
+    <Compile Include="../../Assets/Zoo World/Scripts/Adapters/DotRecast/**/*.cs" />
+    <Compile Include="../../Packages/com.bazyleu.unistate/Runtime/Core/**/*.cs" />
+    <Compile Include="Physics/**/*.cs" />
+    <Compile Include="Configuration/**/*.cs" />
+    <Compile Include="HeadlessSimulation.cs" />
+    <None Include="ThirdPartyNotices/BepuPhysics.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

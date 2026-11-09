@@ -1,0 +1,23 @@
+{
+  "name": "Zoo.PlayMode.Tests",
+  "references": [
+    "Zoo.Domain",
+    "Zoo.Application",
+    "Zoo.Unity",
+    "UniTask",
+    "NightPool",
+    "Zoo.Physics.Unity",
+    "Zoo.Composition",
+    "Zenject",
+    "Unity.ugui"
+  ],
+  "autoReferenced": false,
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "R3.dll",
+    "nunit.framework.dll"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

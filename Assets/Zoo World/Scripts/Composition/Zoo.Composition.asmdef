@@ -1,0 +1,13 @@
+{
+  "name": "Zoo.Composition",
+  "references": [
+    "Zoo.Domain",
+    "Zoo.Application",
+    "Zoo.Unity",
+    "Zoo.Physics.Unity",
+    "Zoo.Navigation.DotRecast",
+    "UniState",
+    "UniTask",
+    "Zenject"
+  ]
+}

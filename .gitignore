@@ -1,0 +1,90 @@
+# Unity-generated caches and local editor state.
+# Keep Assets (including .meta files), ProjectSettings and embedded Packages in Git.
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/.plastic/
+
+# Player builds, reports, captures and IL2CPP/Burst debugging output.
+/[Bb]uild/
+/[Bb]uilds/
+/[Bb]uildReports/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/*_BurstDebugInformation_DoNotShip/
+/sysinfo.txt
+
+# IDE caches and Unity-generated solutions/projects (only at the project root).
+# Hand-written projects such as Tests/Headless/*.csproj must remain tracked.
+/.idea/
+/.vs/
+/.consulo/
+/.gradle/
+/*.csproj
+/*.unityproj
+/*.sln
+/*.slnx
+/*.slnf
+/*.csproj.DotSettings
+*.DotSettings.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.pidb
+*.pidb.meta
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# .NET build output and test/coverage results, including headless tests.
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+/TestResults*.xml
+/[Cc]odeCoverage/
+
+# Logs and temporary files; do not blanket-ignore plugin DLLs/PDBs or asset .meta files.
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS-generated files.
+.DS_Store
+._*
+Thumbs.db
+Thumbs.db.meta
+Desktop.ini
+
+# Restored from Assets/packages.config by NuGetForUnity.
+# Keep Assets/packages.config, Assets/NuGet.config and Packages/packages-lock.json.
+# Keep the tracked Assets/Packages.meta to preserve the folder GUID on restore.
+/Assets/Packages/
+
+# Unity-generated recovery scenes and Rider editor integration.
+/Assets/**/[Uu]nity[Ss]cenes/[Bb]ackup*/
+/Assets/**/[Uu]nity[Ss]cenes/[Bb]ackup*.meta
+/Assets/**/JetBrains.Rider.Editor/
+/Assets/**/JetBrains.Rider.Editor.meta
+
+# Generated performance test data (including its .meta files).
+/Assets/Resources/PerformanceTestRun*.json*
+
+# Unused commercial editor extensions remain installed locally.
+/Assets/BuildReport/
+/Assets/BuildReport.meta
+/Assets/Plugins/Demigiant/DOTweenPro/
+/Assets/Plugins/Demigiant/DOTweenPro.meta
+/Assets/Plugins/Demigiant/DemiLib/
+/Assets/Plugins/Demigiant/DemiLib.meta
+/Assets/Plugins/Demigiant/readme_DOTweenPro.txt*
+/ThirdPartyExtras/
+
+# Local implementation and dependency-inspection scratch files.
+/tmp/
